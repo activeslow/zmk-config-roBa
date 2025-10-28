@@ -109,10 +109,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE  &kp DOUBLE_QUOTES  &trans  &trans  &kp LEFT_PARENTHESIS                      &kp RPAR           &kp HOME        &kp UP_ARROW    &kp END          &trans
-&trans      &trans             &trans  &trans  &kp LEFT_BRACE        &trans      &trans  &kp RIGHT_BRACE    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PLUS
-&trans      &trans             &trans  &trans  &kp LEFT_BRACKET      &trans      &trans  &kp RIGHT_BRACKET  &trans          &trans          &trans           &kp ASTERISK
-&trans      &trans             &trans  &trans  &trans                &trans      &trans  &trans                                                              &trans
+&trans  &kp DOUBLE_QUOTES  &trans  &trans  &kp LEFT_PARENTHESIS                      &kp RPAR           &kp HOME        &kp UP_ARROW    &kp END          &trans
+&trans  &trans             &trans  &trans  &kp LEFT_BRACE        &trans      &trans  &kp RIGHT_BRACE    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PLUS
+&trans  &trans             &trans  &trans  &kp LEFT_BRACKET      &trans      &trans  &kp RIGHT_BRACKET  &trans          &trans          &trans           &kp ASTERISK
+&trans  &trans             &trans  &trans  &trans                &trans      &trans  &trans                                                              &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -129,10 +129,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans          &kp UP_ARROW    &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                   &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
 
