@@ -122,10 +122,10 @@
 
         FUNCTION {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4    &kp F5                                 &trans            &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
-&kp F6  &kp F7  &kp F8  &kp F9    &kp F10   &trans      &msc SCRL_RIGHT  &msc MOVE_Y(-20)  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans
-&trans  &trans  &trans  &mkp MB4  &mkp MB5  &trans      &msc SCRL_LEFT   &msc MOVE_Y(20)   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-&trans  &trans  &trans  &trans    &trans    &trans      &kp NUMBER_0     &kp DOT                                                     &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5                                &trans            &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
+&kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans      &msc SCRL_RIGHT  &msc MOVE_Y(-20)  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans
+&trans  &trans  &trans  &trans  &trans   &trans      &msc SCRL_LEFT   &msc MOVE_Y(20)   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&trans  &trans  &trans  &trans  &trans   &trans      &kp NUMBER_0     &kp DOT                                                     &trans
             >;
         };
 
@@ -160,7 +160,7 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &kp LS(LC(UP_ARROW))                                                  &kp LS(LC(Y))      &kp LS(LC(U))  &kp LS(LC(I))      &kp LS(LC(O))       &trans
+&trans  &trans  &trans  &trans  &kp LS(LG(UP_ARROW))                                                  &kp LS(LC(Y))      &kp LS(LC(U))  &kp LS(LC(I))      &kp LS(LC(O))       &trans
 &trans  &trans  &trans  &trans  &trans                &trans                   &trans                 &kp LS(LC(H))      &kp LS(LC(J))  &kp LS(LC(K))      &kp LS(LC(L))       &kp LS(LC(MINUS))
 &trans  &trans  &trans  &trans  &kp LC(LEFT_ARROW)    &kp LC(RIGHT_ARROW)      &trans                 &kp LS(LC(N))      &kp LS(LC(M))  &kp LS(LC(COMMA))  &kp LS(LC(PERIOD))  &trans
 &trans  &trans  &trans  &trans  &trans                &trans                   &kp LS(LC(BACKSPACE))  &kp LS(LC(ENTER))                                                        &trans
