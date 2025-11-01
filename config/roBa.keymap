@@ -45,7 +45,8 @@
             &zip_scroll_scaler 1 60
             &zip_scroll_transform INPUT_TRANSFORM_Y_INVERT
             &zip_scroll_y_scaler 1 0
-        >;    };
+        >;   
+    };
 };
 
 &mt {
