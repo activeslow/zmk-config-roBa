@@ -151,7 +151,7 @@
 &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS                          &kp RPAR           &kp LC(LEFT_ARROW)  &kp UP_ARROW    &kp LC(RIGHT_ARROW)  &kp DOUBLE_QUOTES
 &trans  &trans  &trans  &trans  &kp LEFT_BRACE        &trans      &trans      &kp RIGHT_BRACE    &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp PLUS
 &trans  &trans  &trans  &trans  &kp LEFT_BRACKET      &trans      &trans      &kp RIGHT_BRACKET  &kp BACKSPACE       &trans          &kp DELETE           &kp ASTERISK
-&trans  &trans  &trans  &trans  &trans                &trans      &kp DELETE  &trans                                                                      &kp BACKSLASH
+&trans  &trans  &trans  &trans  &trans                &trans      &kp DELETE  &trans                                                                      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LG(PLUS) LG(MINUS)>;
