@@ -9,15 +9,15 @@
 // ロータリーエンコーダー用にbehavorsを追加
 // スクロール方向を逆にしたい場合は <&msc SCRL_DOWN> と <&msc SCRL_UP> を入れ替えてください
 
-    behaviors {
-        encoder_msc_down_up: encoder_msc_down_up {
-            compatible = "zmk,behavior-sensor-rotate";
-            label = "ENCODER_MSC_DOWN_UP";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
-            tap-ms = <20>;
-        };
-    };
+//    behaviors {
+//        encoder_msc_down_up: encoder_msc_down_up {
+//            compatible = "zmk,behavior-sensor-rotate";
+//            label = "ENCODER_MSC_DOWN_UP";
+//            #sensor-binding-cells = <0>;
+//            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+//            tap-ms = <20>;
+//        };
+//    };
 
 
 / {
@@ -168,7 +168,7 @@
 &trans  &trans  &trans  &trans  &trans                &trans      &kp DELETE         &trans                                                                      &trans
             >;
 
-            sensor-bindings = <&encoder_msc_down_up>;
+            //sensor-bindings = <&encoder_msc_down_up>;
         };
 
         MOUSE {
