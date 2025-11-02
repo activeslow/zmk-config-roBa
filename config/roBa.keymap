@@ -15,6 +15,7 @@
             codes = <INPUT_REL_HWHEEL>;
             track-remainders;
         };
+
         zip_scroll_y_scaler: zip_scroll_y_scaler {
             compatible = "zmk,input-processor-scaler";
             #input-processor-cells = <2>;
@@ -23,8 +24,7 @@
             track-remainders;
         };
     };
- };
-
+};
 
 &trackball_listener {
     input-processors = <
@@ -150,7 +150,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS                          &kp RPAR           &kp LC(LEFT_ARROW)  &kp UP_ARROW    &kp LC(RIGHT_ARROW)  &kp DOUBLE_QUOTES
 &trans  &trans  &trans  &trans  &kp LEFT_BRACE        &trans      &trans      &kp RIGHT_BRACE    &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp PLUS
-&trans  &trans  &trans  &trans  &kp LEFT_BRACKET      &trans      &trans      &kp RIGHT_BRACKET  &trans              &trans          &trans               &kp ASTERISK
+&trans  &trans  &trans  &trans  &kp LEFT_BRACKET      &trans      &trans      &kp RIGHT_BRACKET  &kp BACKSPACE       &trans          &kp DELETE           &kp ASTERISK
 &trans  &trans  &trans  &trans  &trans                &trans      &kp DELETE  &trans                                                                      &trans
             >;
 
