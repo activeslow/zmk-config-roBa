@@ -125,7 +125,7 @@
 &mt LEFT_SHIFT Q    &kp LEFT_CONTROL  &kp LEFT_GUI  &lt 2 LG(SPACE)  &lt 1 SPACE  &lt 5 RA(GRAVE)      &kp BACKSPACE  &kp ENTER                             &kp RIGHT_ALT
             >;
 
-            sensor-bindings = <&inc_dec_kp C_AC_ZOOM_OUT C_AC_ZOOM_IN>;
+            sensor-bindings = <&inc_dec_kp LC(MINUS) LC(PLUS)>;
         };
 
         FUNCTION {
