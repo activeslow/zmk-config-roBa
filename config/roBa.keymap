@@ -8,7 +8,6 @@
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 80
 
-
 / {
     input_processors {
         zip_scroll_x_scaler: zip_scroll_x_scaler {
@@ -126,10 +125,10 @@
             label = "ENCODER_MSC_DOWN_UP";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
             tap-ms = <20>;
         };
     };
-
 
     keymap {
         compatible = "zmk,keymap";
@@ -176,10 +175,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
+&trans  &trans    &trans    &trans    &trans                      &trans  &trans  &trans    &trans    &trans
+&trans  &mkp MB2  &mkp MB3  &mkp MB1  &trans  &trans      &trans  &trans  &trans  &trans    &trans    &trans
+&trans  &trans    &trans    &trans    &trans  &trans      &trans  &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2
+&trans  &trans    &trans    &trans    &trans  &trans      &trans  &trans                              &trans
             >;
         };
 
