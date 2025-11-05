@@ -165,8 +165,8 @@
         ARROW {
             bindings = <
 &trans  &kp F2  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                          &trans             &kp LC(LEFT_ARROW)  &kp UP_ARROW    &kp LC(RIGHT_ARROW)  &kp SINGLE_QUOTE
-&trans  &trans  &trans  &kp LEFT_BRACE        &kp LEFT_BRACE         &trans      &trans      &kp DOUBLE_QUOTES  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp PLUS
-&trans  &trans  &trans  &kp LEFT_BRACKET      &kp LEFT_BRACKET       &trans      &trans      &kp COMMA          &kp BACKSPACE       &trans          &kp DELETE           &kp ASTERISK
+&trans  &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans      &trans      &kp DOUBLE_QUOTES  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp PLUS
+&trans  &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans      &trans      &kp COMMA          &kp BACKSPACE       &trans          &kp DELETE           &kp ASTERISK
 &trans  &trans  &trans  &trans                &kp TAB                &trans      &kp DELETE  &trans                                                                      &trans
             >;
 
