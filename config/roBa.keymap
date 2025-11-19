@@ -141,7 +141,7 @@
 &mt LEFT_SHIFT Q    &kp LEFT_CONTROL  &kp LEFT_GUI  &lt 6 LG(SPACE)  &lt 1 SPACE  &lt 5 RA(GRAVE)      &kp BACKSPACE  &kp ENTER                             &mt RIGHT_ALT BSLH
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(MINUS) LC(PLUS)>;
+            sensor-bindings = <&inc_dec_kp LG(MINUS) LG(PLUS)>;
         };
 
         FUNCTION {
